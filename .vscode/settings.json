@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.tsx": "typescript",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
