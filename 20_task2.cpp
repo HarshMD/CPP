@@ -61,41 +61,33 @@ int main(){
             cout << "Enter your squad name: ";
             cin.ignore();
             getline(cin, p2fullname);
-            cout << "Enter number of members in your squad";
+            cout << "Enter total number of members in your squad: ";
             cin >> members;
-            cout << "Enter team member 1 age: ";
+            cout << "Enter member 1 age: ";
             cin >> t1age;
-            cout << "Enter team member 2 age: ";
+            cout << "Enter member 2 age: ";
             cin >> t2age;
-            cout << "Enter team member 3 age: ";
+            cout << "Enter member 3 age: ";
             cin >> t3age;
-            if(members<=4){
-                cout<< "Welcome to the club";
-                if(p2age >= 18 && p2age <= 40){
-                    if(p1gender != p2gender){
-                        cout<< "Welcome to the Club\n";
-                        cout << "You Both have to pay 2500 each";
-                    }
-                    else{
-                        cout<< "Not Welcomed in the Club\n";
-                    }
+            if(t1age >= 18 && t2age >= 18 && t3age >= 18){
+                if(members<=4){
+                    cout<< "Welcome to the club";
+                }
+                else{
+                    cout << "Sorry only 4 people allowed";
+                }
             }
             else{
                 cout << "Sorry you don't qualify the age limit";
             }
-            }
-            else{
-                cout<<"Exceeds the members limit";
-            }
-            
         }
     }
     else{
         cout << "Sorry you don't qualify the age limit";
     }
-
-    return 0;
+     return 0;
 }
+    
 
 /*
 #include <iostream>
