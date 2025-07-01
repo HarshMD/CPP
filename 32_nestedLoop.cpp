@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     int n, x, y, i, j, a, b, c, d, e, f, p, q; 
 
-    cout<<"Enter the number of rows/stars: ";
+    cout<<"Enter the number of rows/stars: "<<endl;
     cin >> n;
 	
     for(x=1; x<=n; x++){
